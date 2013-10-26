@@ -1,0 +1,87 @@
+/**
+ * These rules serve mainly as extensions (SASS context) sub definitions.
+ * They should be kept simple for optimal extensibility.
+ * In the best case you need never use this selectors in HTML.
+ */
+
+// Floatings
+// @abstract
+.snap-right { float: right; }
+// @abstract
+.snap-left { float: left; }
+// For clearing floats like a boss h5bp.com/q
+// @abstract
+.clearfix {
+  *zoom: 1;
+  .lt-ie9 & { overflow: hidden; }
+  &::before,
+  &::after {
+    content: "";
+    display: table;
+  }
+  &::after {
+    clear: both;
+  }
+}
+// text-aligns
+.ltr { text-align: left; }
+.rtl { text-align: right; }
+.cntr { text-align: center; }
+
+// Toggling content
+// @abstract
+.hide { display: none; }
+.show { display: block; }
+
+// Visibility
+// @abstract
+.invisible { visibility: hidden; }
+
+// Link behaviors
+// @abstract
+%link {
+  text-decoration: underline;
+  &:hover, &:focus {
+    text-decoration: none;
+  }
+}
+%inverted-link {
+  text-decoration: none;
+  &:hover, &:focus {
+    text-decoration: underline;
+  }
+}
+// List helper
+// @abstract
+%unstyled-list {
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+
+.row{
+  padding:20px 0;
+  width:100%;
+  background:#fff;
+
+
+}
+
+.row--alt{
+
+    background:$grey;
+}
+
+
+.accent{
+  color:$accent;
+}
+
+.accent-bg{
+  background:$accent;
+}
+
+
+.centered{
+  text-align:center;
+}

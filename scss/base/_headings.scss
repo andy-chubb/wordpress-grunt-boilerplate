@@ -1,0 +1,32 @@
+@import
+  "settings";
+
+// pragmatic headings
+// @link http://csswizardry.com/2012/02/pragmatic-practical-font-sizing-in-css/
+//
+h1, .h1 {
+  font: { size: $fontSizeXXXL;  family: $fontAlt; };
+  margin: 0 0 0.67em;
+  line-height:1.2em;
+  text-align:center;
+}
+h2, .h2 {
+  font: { size: $fontSizeXXL;  family: $fontAlt;  };
+  margin: 0 0 0.83em;
+}
+h3, .h3 {
+  font: { size: $fontSizeXL;  family: $fontAlt;  };
+  margin: 0 0 1em;
+}
+h4, .h4 {
+  font: { size: $fontSizeL;  family: $fontAlt; };
+  margin: 0 0 1.33em;
+}
+h5, .h5 {
+  font-size: $fontSizeM;
+  margin: 0 0 1.67em;
+}
+h6, .h6 {
+  font-size: $fontSizeM;
+  margin: 0 0 2.33em;
+}
