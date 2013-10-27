@@ -44,7 +44,7 @@
 <div class="row row--alt" id="internal-calltos">
 	<div class="grid">
 
-		<div class="grid__item desk--one-third centered">
+		<div class="grid__item desktop--one-third centered">
 
 			<h2>sffsfs<h2>
 
@@ -59,7 +59,7 @@
 		</div>
 		<!--end one third-->
 
-		<div class="grid__item desk--one-third centered">
+		<div class="grid__item desktop--one-third centered">
 
 			<h2>Psfsfs<h2>
 
@@ -74,7 +74,7 @@
 		</div>
 		<!--end one third-->
 
-		<div class="grid__item desk--one-third centered">
+		<div class="grid__item desktop--one-third centered">
 
 			<h2>fssfs<h2>
 

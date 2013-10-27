@@ -89,7 +89,6 @@
 	   ======================================================================================================================== */
 
 		add_action( 'wp_enqueue_scripts', 'starkers_script_enqueuer' );
-		add_action( 'init', 'register_cpt_testimonial' );
     	add_action( 'init', 'register_my_menus' );
     	add_action('wp_dashboard_setup', 'wpc_dashboard_widgets');
 
@@ -97,60 +96,6 @@
 		add_filter( 'body_class', array( 'Starkers_Utilities', 'add_slug_to_body_class' ) );
 		add_filter('admin_footer_text', 'remove_footer_admin');
 
-	
-
-	/* ========================================================================================================================
-		Custom Post Types - include custom post types and taxonimies here 
-	   ======================================================================================================================== */
-
-
-	  	/**
-			 * Register a custom post type for testimonials
-			 *
-			 * @return void
-			 * @author Dan Collins
-	 	*/
-
-   
-	    /**function register_cpt_testimonial() {
-	    $labels = array(
-		    'name' => _x( 'Testimonials', 'testimonial' ),
-		    'singular_name' => _x( 'Testimonial', 'testimonial' ),
-		    'add_new' => _x( 'Add New', 'testimonial' ),
-		    'add_new_item' => _x( 'Add New Testimonial', 'testimonial' ),
-		    'edit_item' => _x( 'Edit testimonial', 'testimonial' ),
-		    'new_item' => _x( 'New testimonial', 'testimonial' ),
-		    'view_item' => _x( 'View testimonial', 'testimonial' ),
-		    'search_items' => _x( 'Search testimonial', 'testimonial' ),
-		    'not_found' => _x( 'No testimonial found', 'testimonial' ),
-		    'not_found_in_trash' => _x( 'No testimonial found in Trash', 'testimonial' ),
-		    'parent_item_colon' => _x( 'Parent testimonial:', 'testimonial' ),
-		    'menu_name' => _x( 'Testimonials', 'testimonial' ),
-	    );
-	    $args = array(
-		    'labels' => $labels,
-		    'hierarchical' => false,
-		    'description' => 'Client testimonials',
-		    'supports' => array( 'title', 'editor', 'thumbnail' ),
-		    'public' => true,
-		    'show_ui' => true,
-		    'show_in_menu' => true,
-		    'menu_position' => 5,
-		    'menu_icon' => get_template_directory_uri().'/images/stage/icons/comment.png',
-		    'show_in_nav_menus' => true,
-		    'publicly_queryable' => true,
-		    'exclude_from_search' => false,
-		    'has_archive' => true,
-		    'query_var' => true,
-		    'can_export' => true,
-		    //'rewrite' => true,
-		     'rewrite' => array('slug' => 'testimonials'),
-		    'capability_type' => 'post'
-	    );
-
-	    register_post_type( 'testimonial', $args );
-
-	    } **/
 
 	/* ========================================================================================================================
 		Scripts
@@ -172,10 +117,6 @@
 
 		wp_register_script( 'app', get_template_directory_uri().'/dist/js/app.min.js', array( 'jquery' ) );
 		wp_enqueue_script( 'app' );
-		
-
-		wp_register_style( 'font', 'http://fonts.googleapis.com/css?family=Montserrat:400,700', '', '', 'screen' );
-        wp_enqueue_style( 'font' );
 
         wp_register_style( 'app', get_stylesheet_directory_uri().'/dist/css/app.min.css', '', '', 'screen' );
         wp_enqueue_style( 'app' );

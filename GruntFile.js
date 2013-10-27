@@ -83,11 +83,11 @@ module.exports = function(grunt) {
                 files: ['scss/*.scss', 'scss/**/*.scss'],
                 tasks: ['compass:dist', 'concat:css', 'cssmin']
             },
-            // smushit: {
+            smushit: {
  
-            //     files: ['img/**/*.png', 'img/**/*.jpg'],
-            //     tasks: ['smushit']
-            // },
+                files: ['img/**/*.png', 'img/**/*.jpg'],
+                tasks: ['smushit']
+            },
             livereload: {
  
                 options: {

@@ -1,3 +1,4 @@
+@charset "CP850";
 /*------------------------------------*\
     $CSSWIZARDRY-GRIDS
 \*------------------------------------*/
@@ -246,7 +247,7 @@
  * Halves
  */
 .one-half, .two-quarters, .three-sixths, .four-eighths, .five-tenths, .six-twelfths {
-  width: 50%; }
+  width: 49%; }
 
 /**
  * Thirds
@@ -342,397 +343,397 @@
   /**
    * Whole
    */
-  .palm--one-whole {
+  .mobile--one-whole {
     width: 100%; }
 
   /**
    * Halves
    */
-  .palm--one-half, .palm--two-quarters, .palm--three-sixths, .palm--four-eighths, .palm--five-tenths, .palm--six-twelfths {
-    width: 50%; }
+  .mobile--one-half, .mobile--two-quarters, .mobile--three-sixths, .mobile--four-eighths, .mobile--five-tenths, .mobile--six-twelfths {
+    width: 49%; }
 
   /**
    * Thirds
    */
-  .palm--one-third, .palm--two-sixths, .palm--four-twelfths {
+  .mobile--one-third, .mobile--two-sixths, .mobile--four-twelfths {
     width: 32.333%; }
 
-  .palm--two-thirds, .palm--four-sixths, .palm--eight-twelfths {
+  .mobile--two-thirds, .mobile--four-sixths, .mobile--eight-twelfths {
     width: 66.666%; }
 
   /**
    * Quarters
    */
-  .palm--one-quarter, .palm--two-eighths, .palm--three-twelfths {
+  .mobile--one-quarter, .mobile--two-eighths, .mobile--three-twelfths {
     width: 25%; }
 
-  .palm--three-quarters, .palm--six-eighths, .palm--nine-twelfths {
+  .mobile--three-quarters, .mobile--six-eighths, .mobile--nine-twelfths {
     width: 75%; }
 
   /**
    * Fifths
    */
-  .palm--one-fifth, .palm--two-tenths {
+  .mobile--one-fifth, .mobile--two-tenths {
     width: 20%; }
 
-  .palm--two-fifths, .palm--four-tenths {
+  .mobile--two-fifths, .mobile--four-tenths {
     width: 40%; }
 
-  .palm--three-fifths, .palm--six-tenths {
+  .mobile--three-fifths, .mobile--six-tenths {
     width: 60%; }
 
-  .palm--four-fifths, .palm--eight-tenths {
+  .mobile--four-fifths, .mobile--eight-tenths {
     width: 80%; }
 
   /**
    * Sixths
    */
-  .palm--one-sixth, .palm--two-twelfths {
+  .mobile--one-sixth, .mobile--two-twelfths {
     width: 16.666%; }
 
-  .palm--five-sixths, .palm--ten-twelfths {
+  .mobile--five-sixths, .mobile--ten-twelfths {
     width: 83.333%; }
 
   /**
    * Eighths
    */
-  .palm--one-eighth {
+  .mobile--one-eighth {
     width: 12.5%; }
 
-  .palm--three-eighths {
+  .mobile--three-eighths {
     width: 37.5%; }
 
-  .palm--five-eighths {
+  .mobile--five-eighths {
     width: 62.5%; }
 
-  .palm--seven-eighths {
+  .mobile--seven-eighths {
     width: 87.5%; }
 
   /**
    * Tenths
    */
-  .palm--one-tenth {
+  .mobile--one-tenth {
     width: 10%; }
 
-  .palm--three-tenths {
+  .mobile--three-tenths {
     width: 30%; }
 
-  .palm--seven-tenths {
+  .mobile--seven-tenths {
     width: 70%; }
 
-  .palm--nine-tenths {
+  .mobile--nine-tenths {
     width: 90%; }
 
   /**
    * Twelfths
    */
-  .palm--one-twelfth {
+  .mobile--one-twelfth {
     width: 8.333%; }
 
-  .palm--five-twelfths {
+  .mobile--five-twelfths {
     width: 41.666%; }
 
-  .palm--seven-twelfths {
+  .mobile--seven-twelfths {
     width: 58.333%; }
 
-  .palm--eleven-twelfths {
+  .mobile--eleven-twelfths {
     width: 91.666%; } }
 @media only screen and (min-width: 481px) and (max-width: 1023px) {
   /**
    * Whole
    */
-  .lap--one-whole {
+  .tablet--one-whole {
     width: 100%; }
 
   /**
    * Halves
    */
-  .lap--one-half, .lap--two-quarters, .lap--three-sixths, .lap--four-eighths, .lap--five-tenths, .lap--six-twelfths {
-    width: 50%; }
+  .tablet--one-half, .tablet--two-quarters, .tablet--three-sixths, .tablet--four-eighths, .tablet--five-tenths, .tablet--six-twelfths {
+    width: 49%; }
 
   /**
    * Thirds
    */
-  .lap--one-third, .lap--two-sixths, .lap--four-twelfths {
+  .tablet--one-third, .tablet--two-sixths, .tablet--four-twelfths {
     width: 32.333%; }
 
-  .lap--two-thirds, .lap--four-sixths, .lap--eight-twelfths {
+  .tablet--two-thirds, .tablet--four-sixths, .tablet--eight-twelfths {
     width: 66.666%; }
 
   /**
    * Quarters
    */
-  .lap--one-quarter, .lap--two-eighths, .lap--three-twelfths {
+  .tablet--one-quarter, .tablet--two-eighths, .tablet--three-twelfths {
     width: 25%; }
 
-  .lap--three-quarters, .lap--six-eighths, .lap--nine-twelfths {
+  .tablet--three-quarters, .tablet--six-eighths, .tablet--nine-twelfths {
     width: 75%; }
 
   /**
    * Fifths
    */
-  .lap--one-fifth, .lap--two-tenths {
+  .tablet--one-fifth, .tablet--two-tenths {
     width: 20%; }
 
-  .lap--two-fifths, .lap--four-tenths {
+  .tablet--two-fifths, .tablet--four-tenths {
     width: 40%; }
 
-  .lap--three-fifths, .lap--six-tenths {
+  .tablet--three-fifths, .tablet--six-tenths {
     width: 60%; }
 
-  .lap--four-fifths, .lap--eight-tenths {
+  .tablet--four-fifths, .tablet--eight-tenths {
     width: 80%; }
 
   /**
    * Sixths
    */
-  .lap--one-sixth, .lap--two-twelfths {
+  .tablet--one-sixth, .tablet--two-twelfths {
     width: 16.666%; }
 
-  .lap--five-sixths, .lap--ten-twelfths {
+  .tablet--five-sixths, .tablet--ten-twelfths {
     width: 83.333%; }
 
   /**
    * Eighths
    */
-  .lap--one-eighth {
+  .tablet--one-eighth {
     width: 12.5%; }
 
-  .lap--three-eighths {
+  .tablet--three-eighths {
     width: 37.5%; }
 
-  .lap--five-eighths {
+  .tablet--five-eighths {
     width: 62.5%; }
 
-  .lap--seven-eighths {
+  .tablet--seven-eighths {
     width: 87.5%; }
 
   /**
    * Tenths
    */
-  .lap--one-tenth {
+  .tablet--one-tenth {
     width: 10%; }
 
-  .lap--three-tenths {
+  .tablet--three-tenths {
     width: 30%; }
 
-  .lap--seven-tenths {
+  .tablet--seven-tenths {
     width: 70%; }
 
-  .lap--nine-tenths {
+  .tablet--nine-tenths {
     width: 90%; }
 
   /**
    * Twelfths
    */
-  .lap--one-twelfth {
+  .tablet--one-twelfth {
     width: 8.333%; }
 
-  .lap--five-twelfths {
+  .tablet--five-twelfths {
     width: 41.666%; }
 
-  .lap--seven-twelfths {
+  .tablet--seven-twelfths {
     width: 58.333%; }
 
-  .lap--eleven-twelfths {
+  .tablet--eleven-twelfths {
     width: 91.666%; } }
 @media only screen and (max-width: 1023px) {
   /**
    * Whole
    */
-  .portable--one-whole {
+  .laptop--one-whole {
     width: 100%; }
 
   /**
    * Halves
    */
-  .portable--one-half, .portable--two-quarters, .portable--three-sixths, .portable--four-eighths, .portable--five-tenths, .portable--six-twelfths {
-    width: 50%; }
+  .laptop--one-half, .laptop--two-quarters, .laptop--three-sixths, .laptop--four-eighths, .laptop--five-tenths, .laptop--six-twelfths {
+    width: 49%; }
 
   /**
    * Thirds
    */
-  .portable--one-third, .portable--two-sixths, .portable--four-twelfths {
+  .laptop--one-third, .laptop--two-sixths, .laptop--four-twelfths {
     width: 32.333%; }
 
-  .portable--two-thirds, .portable--four-sixths, .portable--eight-twelfths {
+  .laptop--two-thirds, .laptop--four-sixths, .laptop--eight-twelfths {
     width: 66.666%; }
 
   /**
    * Quarters
    */
-  .portable--one-quarter, .portable--two-eighths, .portable--three-twelfths {
+  .laptop--one-quarter, .laptop--two-eighths, .laptop--three-twelfths {
     width: 25%; }
 
-  .portable--three-quarters, .portable--six-eighths, .portable--nine-twelfths {
+  .laptop--three-quarters, .laptop--six-eighths, .laptop--nine-twelfths {
     width: 75%; }
 
   /**
    * Fifths
    */
-  .portable--one-fifth, .portable--two-tenths {
+  .laptop--one-fifth, .laptop--two-tenths {
     width: 20%; }
 
-  .portable--two-fifths, .portable--four-tenths {
+  .laptop--two-fifths, .laptop--four-tenths {
     width: 40%; }
 
-  .portable--three-fifths, .portable--six-tenths {
+  .laptop--three-fifths, .laptop--six-tenths {
     width: 60%; }
 
-  .portable--four-fifths, .portable--eight-tenths {
+  .laptop--four-fifths, .laptop--eight-tenths {
     width: 80%; }
 
   /**
    * Sixths
    */
-  .portable--one-sixth, .portable--two-twelfths {
+  .laptop--one-sixth, .laptop--two-twelfths {
     width: 16.666%; }
 
-  .portable--five-sixths, .portable--ten-twelfths {
+  .laptop--five-sixths, .laptop--ten-twelfths {
     width: 83.333%; }
 
   /**
    * Eighths
    */
-  .portable--one-eighth {
+  .laptop--one-eighth {
     width: 12.5%; }
 
-  .portable--three-eighths {
+  .laptop--three-eighths {
     width: 37.5%; }
 
-  .portable--five-eighths {
+  .laptop--five-eighths {
     width: 62.5%; }
 
-  .portable--seven-eighths {
+  .laptop--seven-eighths {
     width: 87.5%; }
 
   /**
    * Tenths
    */
-  .portable--one-tenth {
+  .laptop--one-tenth {
     width: 10%; }
 
-  .portable--three-tenths {
+  .laptop--three-tenths {
     width: 30%; }
 
-  .portable--seven-tenths {
+  .laptop--seven-tenths {
     width: 70%; }
 
-  .portable--nine-tenths {
+  .laptop--nine-tenths {
     width: 90%; }
 
   /**
    * Twelfths
    */
-  .portable--one-twelfth {
+  .laptop--one-twelfth {
     width: 8.333%; }
 
-  .portable--five-twelfths {
+  .laptop--five-twelfths {
     width: 41.666%; }
 
-  .portable--seven-twelfths {
+  .laptop--seven-twelfths {
     width: 58.333%; }
 
-  .portable--eleven-twelfths {
+  .laptop--eleven-twelfths {
     width: 91.666%; } }
 @media only screen and (min-width: 1024px) {
   /**
    * Whole
    */
-  .desk--one-whole {
+  .desktop--one-whole {
     width: 100%; }
 
   /**
    * Halves
    */
-  .desk--one-half, .desk--two-quarters, .desk--three-sixths, .desk--four-eighths, .desk--five-tenths, .desk--six-twelfths {
-    width: 50%; }
+  .desktop--one-half, .desktop--two-quarters, .desktop--three-sixths, .desktop--four-eighths, .desktop--five-tenths, .desktop--six-twelfths {
+    width: 49%; }
 
   /**
    * Thirds
    */
-  .desk--one-third, .desk--two-sixths, .desk--four-twelfths {
+  .desktop--one-third, .desktop--two-sixths, .desktop--four-twelfths {
     width: 32.333%; }
 
-  .desk--two-thirds, .desk--four-sixths, .desk--eight-twelfths {
+  .desktop--two-thirds, .desktop--four-sixths, .desktop--eight-twelfths {
     width: 66.666%; }
 
   /**
    * Quarters
    */
-  .desk--one-quarter, .desk--two-eighths, .desk--three-twelfths {
+  .desktop--one-quarter, .desktop--two-eighths, .desktop--three-twelfths {
     width: 25%; }
 
-  .desk--three-quarters, .desk--six-eighths, .desk--nine-twelfths {
+  .desktop--three-quarters, .desktop--six-eighths, .desktop--nine-twelfths {
     width: 75%; }
 
   /**
    * Fifths
    */
-  .desk--one-fifth, .desk--two-tenths {
+  .desktop--one-fifth, .desktop--two-tenths {
     width: 20%; }
 
-  .desk--two-fifths, .desk--four-tenths {
+  .desktop--two-fifths, .desktop--four-tenths {
     width: 40%; }
 
-  .desk--three-fifths, .desk--six-tenths {
+  .desktop--three-fifths, .desktop--six-tenths {
     width: 60%; }
 
-  .desk--four-fifths, .desk--eight-tenths {
+  .desktop--four-fifths, .desktop--eight-tenths {
     width: 80%; }
 
   /**
    * Sixths
    */
-  .desk--one-sixth, .desk--two-twelfths {
+  .desktop--one-sixth, .desktop--two-twelfths {
     width: 16.666%; }
 
-  .desk--five-sixths, .desk--ten-twelfths {
+  .desktop--five-sixths, .desktop--ten-twelfths {
     width: 83.333%; }
 
   /**
    * Eighths
    */
-  .desk--one-eighth {
+  .desktop--one-eighth {
     width: 12.5%; }
 
-  .desk--three-eighths {
+  .desktop--three-eighths {
     width: 37.5%; }
 
-  .desk--five-eighths {
+  .desktop--five-eighths {
     width: 62.5%; }
 
-  .desk--seven-eighths {
+  .desktop--seven-eighths {
     width: 87.5%; }
 
   /**
    * Tenths
    */
-  .desk--one-tenth {
+  .desktop--one-tenth {
     width: 10%; }
 
-  .desk--three-tenths {
+  .desktop--three-tenths {
     width: 30%; }
 
-  .desk--seven-tenths {
+  .desktop--seven-tenths {
     width: 70%; }
 
-  .desk--nine-tenths {
+  .desktop--nine-tenths {
     width: 90%; }
 
   /**
    * Twelfths
    */
-  .desk--one-twelfth {
+  .desktop--one-twelfth {
     width: 8.333%; }
 
-  .desk--five-twelfths {
+  .desktop--five-twelfths {
     width: 41.666%; }
 
-  .desk--seven-twelfths {
+  .desktop--seven-twelfths {
     width: 58.333%; }
 
-  .desk--eleven-twelfths {
+  .desktop--eleven-twelfths {
     width: 91.666%; } }
 /*------------------------------------*\
     $PUSH

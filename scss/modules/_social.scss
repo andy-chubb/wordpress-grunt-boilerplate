@@ -1,0 +1,35 @@
+// This is a basic example of BEM methodology
+@import "compass";
+
+// Block - Social Buttons (will contain the elements of individual links)
+.social-networking{
+	@extend %clearfix;
+	border: 1px solid #f00;
+
+	h4{
+		text-align: center;
+	}
+
+	ul{
+	float: right;
+
+		li{
+			display: block;
+			float: left;
+		}
+	}
+}
+
+// Element - The actual button component
+.social-networking__button{
+	@extend %hide_text;
+	width: 100px;
+  	height: 100px;
+  	display: block;
+}
+
+// Placing Sprites on button backgrounds
+@import "social/*.png";
+.twitter { @include social-sprite(twitter); }
+.youtube { @include social-sprite(youtube); }
+.facebook {  @include social-sprite(facebook); }
